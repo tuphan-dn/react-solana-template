@@ -1,5 +1,5 @@
 import IonIcon from '@sentre/antd-ionicon'
-import { Image, Col, Layout, Row, Space, Typography } from 'antd'
+import { Image, Col, Layout, Row, Space, Typography, Button } from 'antd'
 
 import logo from 'static/images/solanaLogo.svg'
 import './index.less'
@@ -21,6 +21,9 @@ function View() {
                 <IonIcon name="rocket" />
               </Space>
             </Typography.Text>
+            <Button type="primary" size="large">
+              Let's go
+            </Button>
           </Space>
         </Col>
       </Row>
