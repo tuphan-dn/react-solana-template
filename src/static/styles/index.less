@@ -29,7 +29,7 @@
 @typography-title-margin-bottom: 0px;
 
 // Border
-@border-radius-base: 8px;
+@border-radius-base: 4px;
 @border-color-base: @NEUTRAL80;
 @border-width-base: 1px;
 @border-color-split: @border-color-base;
@@ -67,28 +67,4 @@
 @divider-orientation-margin: 0;
 
 // Checkbox
-@checkbox-border-radius: @border-radius-base - 4;
-
-// Patch
-.@{ant-prefix}-layout {
-  background: unset;
-}
-.@{ant-prefix}-card {
-  box-shadow: @LIGHT_SHADOW1;
-  &.glass {
-    background-color: color(~`('@{card-background}aa') `);
-    backdrop-filter: blur(16px);
-  }
-}
-.@{ant-prefix}-typography {
-  &.primary {
-    color: @PRIMARY;
-  }
-}
-.@{ant-prefix}-card {
-  box-shadow: @LIGHT_SHADOW1;
-  &.glass {
-    background-color: color(~`('@{card-background}66') `);
-    backdrop-filter: blur(16px);
-  }
-}
+@checkbox-border-radius: @border-radius-base / 2;

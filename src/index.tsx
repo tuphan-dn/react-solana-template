@@ -2,6 +2,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 
 import View from 'view'
+
 import reportWebVitals from 'reportWebVitals'
 
 import 'static/styles/index.less'

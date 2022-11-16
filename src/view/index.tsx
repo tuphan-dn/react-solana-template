@@ -1,4 +1,5 @@
 import IonIcon from '@sentre/antd-ionicon'
+
 import { Image, Col, Layout, Row, Space, Typography, Button } from 'antd'
 
 import logo from 'static/images/solanaLogo.svg'
