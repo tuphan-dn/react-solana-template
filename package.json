@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "@sentre/antd-ionicon": "^2.0.2",
+    "@solana/wallet-adapter-base": "^0.9.18",
+    "@solana/wallet-adapter-react": "^0.15.24",
+    "@solana/wallet-adapter-react-ui": "^0.9.22",
+    "@solana/wallet-adapter-wallets": "^0.19.5",
+    "@solana/web3.js": "^1.66.2",
     "antd": "^4.24.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
